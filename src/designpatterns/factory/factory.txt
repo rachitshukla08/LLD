@@ -12,3 +12,16 @@ We need to defer the usage of new keyword as long as possible and move it up to 
 With factory:
 Creation responsibility is centralised
 We no longer have to depend on lot of concrete classes in coffeeserver
+
+USE CASES:
+There are different types of my product
+Type1, Type2, Type3
+Type1 is tied to a specific combination of ingredients
+Type2 is tied to a another combination of ingredients
+etc
+
+In this case abstract factory is useful
+
+Cons of factory pattern:
+Gives birth to lot of small classes (But it is still better than keeping bulky classes)
+If we add some new ingredient eg: spice then our interface and all the dependent classes will change
