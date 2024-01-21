@@ -1,0 +1,13 @@
+There should be a number store where I can add and search numbers
+We should be able to insert data in user ordered manner
+We should be able to search data on user provided algorithm
+
+For now
+suppose for insert there are 2 algorithms - ordered, unordered
+For search there are 2 algorithms -linear, binary
+
+Design a class where user can pick their algorithms in any combination of above 2
+
+Strategy pattern:
+When we wish to have different types for something and ensure all the types behave differently
+for same function call
