@@ -1,0 +1,14 @@
+Cons of usage of new keyword
+
+- Class starts to depend on concrete implementations hence violates dependency inversion principle
+- When code starts to depend on concretions we lose flexibility
+
+How to get rid of it?
+- We can do dependency injection by client instead of creating my own object in class
+
+We need to defer the usage of new keyword as long as possible and move it up to high level classes
+
+
+With factory:
+Creation responsibility is centralised
+We no longer have to depend on lot of concrete classes in coffeeserver
