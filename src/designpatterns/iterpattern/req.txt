@@ -1,0 +1,9 @@
+Software which displays list of flight no from a particular airport
+There are 3rd party airlines and each airlines have flight numbers whch are stored in a data structure
+Write program to retrieve and display data
+Air india: Binary search tree. getData() returns list<TreeNode>
+Indigo: Linkedlist. getData() returns LinkedListNode[]
+Vistara: List<Integer>. getData() returns List<Integer>
+
+Write an application that talks to getData method of these airlines and fetches the list and one
+by one iterates on it and renders the flight no on display board
