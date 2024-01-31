@@ -1,0 +1,31 @@
+1) Users should be able to search the food items by their name.
+They should be able to put filters on the search (Veg/nonveg, cuisine: italian, indian)
+
+2) For the fetched items, user should be able to navigate to the corresponding restaurant,
+check the price list, add items to their cart and place order
+
+3) DIfferent modes of payment Netbanking, Card, etc
+
+4) Cart cant contain food from multiple restaurants
+
+5) Users should be able to search restaurants by their names. They should also be able to put some
+filters on search like veg/non veg etc
+
+6) User should be able to modify their cart
+
+7) System should contain imp info about user (Address, number)
+
+8) Live order tracking should be there. ORDER_PLACED, COOKING, READY_FOR_DELIVERY, OUT_FOR_DELIVERY
+DELIVERED. A user can cancel the the order if cooking is not started.
+
+9) System should provide and ETA for delivery
+
+10) User should be able to provide rating + feedback
+
+11) Restaurants should be able to register themselves to the system. Admin approval needed.
+
+12) Restaurants should be able to update the costings, food availability, open close time.
+
+BONUS:
+COUPON CODES
+NOTIFICATION SYSTEM
