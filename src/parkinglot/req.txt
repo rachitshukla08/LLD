@@ -1,0 +1,6 @@
+It will help a person to search for a free parking spot through the person sitting at the office
+There are different vehicle categories 2wheeler, 4wheeler, heavy vehicles
+These have different fees
+There are multiple floors and multiple entry gates and exit gates
+There can be diff strategies to select the free parking spot (eg nearest spot to entry)
+Payment is done as per hourly basis and differs across vehicle types
