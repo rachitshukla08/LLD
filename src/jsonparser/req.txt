@@ -1,0 +1,7 @@
+It should be able to convert raw json string to obj and raw obj to json string
+The json will have strings as keys and value can be eiter string or another json (Nestedjson)
+
+It should be able to convert json into object and convert it back into string
+also we should be able to perform get operations on it.
+object.getName() -> should return value of name
+object.getReportCard() -> Should return value being pointed by report card as it is an object

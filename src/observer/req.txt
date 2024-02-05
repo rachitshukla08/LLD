@@ -1,0 +1,11 @@
+Pull - client continuously keeps on polling for data
+Push - server pushes the data to client. Client can be a cricketSubscriber to the cricketPublisher. eg: Push notifications
+
+In this case push is better as it reduces no of polls
+
+We need to design a cricket score board
+We are being supplied with total overs, runs, wickets from a 3rd party service
+
+We need to display current run rate
+Display updated projected score
+Display top discussion
