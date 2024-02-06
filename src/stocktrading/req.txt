@@ -1,0 +1,12 @@
+There are some stock exchanges like zerodha, nse which are continuously releasing some updates
+
+eg: Price of a stock is 200
+
+There are some subscribers who consume these updates
+
+Many to Many relationship is there bw publisher and subscriber
+
+We may be receiving diff prices from every publisher for a stock value because of old data being published by
+some publisher
+So to solve this, the publisher also sends a version number along with price to choose the publisher with the
+latest version of stock price
