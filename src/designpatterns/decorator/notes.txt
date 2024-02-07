@@ -1,0 +1,23 @@
+we are designing dominos pizza
+We need to create diff varities of pizza and computes cost based on ingredients
+
+There is a base, topping1, topping2, topping3
+Even if we put one more topping on it, eg mushroom then it will still be  a pizza
+Base can be off different varieties but there will be a single base in a pizza
+eg wheat, thin crust, cheese burst.
+
+Combinations of base and toppings will result in a type of pizza
+Pizza = base || pizza = pizza + topping
+
+Pizza p = new WheatBase();
+Pizza p1 = new Onion(p);
+Pizza p2 = new Mushroom(p1);
+
+=> new Mushroom(new Onion(new WheatBase())) this is also a pizza
+This style is called as decoration
+Here all the subtypes are coded against pizza hence they all return a pizza
+
+But there is some kind of logical difference between topping and pizza. so we can introduce one more intermediate
+abstract class topping to logically separate base and topping but ultimately it is subtype of pizza
+
+A base does not need a pizza but any topping needs a pizza to be put on.
