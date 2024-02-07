@@ -1,0 +1,12 @@
+There is a system where there are interceptors
+eg Validation, authentication, authorization
+
+Before a req we need to perform these checks
+
+We can have a List<RequestHandler> in the usinginterface package
+-but here our sequence of handling is fixed but what if the sequence of handling is required in a
+different order eg H2 then H1 then H3
+-also the handlers cannot communicate with each other. suppose the next handler relies on response of previous
+handler h1 -> h2(uses result of h1) -> h3 (uses result of h2)
+
+

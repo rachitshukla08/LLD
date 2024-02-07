@@ -1,0 +1,7 @@
+There is an enquiry on PPA platform by a student in text form on HandleEnquiryAPI
+API needs to figure out what kind of api it is
+- academics
+- subscriptions
+- projects
+By looking at text and preprocessing we need to figure out what kind of enquiry it is and put it in
+correct bucket
