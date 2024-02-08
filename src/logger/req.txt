@@ -1,0 +1,8 @@
+Design a logger with multiple type of severity levels
+-debug info warn error fatal
+
+We should be able to send different types oflogs at diff dest
+eg: error logs on console + file
+eg: info logs on console only
+
+It should be allowed for log statement to be processed by multiple loggers
