@@ -1,0 +1,19 @@
+Design for discussion forum of PPA
+Students while asking doubts should be able to add tags to their query
+We want to create a system that allows to manipulate these tags
+eg: Delete tags, Delete tags whose name matches a pattern, Add new tag, Update tag
+
+Suppose there are tags Math, Maths, Mathematics. All these are same so we should have an operation that
+merges these tags with a common name
+
+Create an Application to support:
+-Insert new tag
+-Deletion of all tags with name
+-Deletion of tags with regex
+-Updation of tag
+
+
+Notes:
+All the implementations of command should have simple code in execute()
+There should be a Receiver which actually knows and contains logic to perform the complex logic like
+deletion based on match
