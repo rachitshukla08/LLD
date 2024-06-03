@@ -1,0 +1,17 @@
+Design an ATM machine
+
+Initially the focus is cash withdrawal
+Functionalities and Constraints:
+
+-We want to support only 1 transaction at a time
+-ATM Machine should have a start button by pressing which user can initiate a transaction ( user will get
+ a transaction ID)
+-Once transaction starts machine should ask user to insert his card
+-After inserting card the system should read and validate the card details
+-In case of wrong details eject the card and end the transaction
+-Otherwise ask the user for next step (enter amount), again validate the amount if it can be dispensed
+-There should be a button to cancel the transaction at any time before the money is dispensed (only if the
+ transaction is already started)
+
+Problem with many states:
+

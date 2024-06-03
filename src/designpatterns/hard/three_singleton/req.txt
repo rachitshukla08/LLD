@@ -1,0 +1,22 @@
+Why do we need singleton?
+
+there may be cases where we would need only one instance of an object floating around in our
+ application like example there is an in memory cache, so we wnt the whole application to use the same
+ in memory cache to store data and retrieve data, we dont want multiple instances of it
+
+Similarly there can be a logger object which all the classes need to use, we would only want a single
+instance of logger to be available across.
+
+There may be a huge class with List<List> Map<>, reads DB and loads the data in the memory. So if we realise
+that our application can work with just a single instance of this class then we should prevent creating of
+multiple instances.
+
+PROBLEM STATEMENT:
+
+We want to write a class that should somehow connect to DB and read a table EmployeeTable.
+I want to load all the employeeId, employeeName in memory in that class in hashmap.
+That class should have getEmployeeName(id)
+The obj of this class will be humongous but it is possible to accommodate in a hashmap
+
+
+NOTE: Because we need to make this static class, this makes unit testing harder on this
