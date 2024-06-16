@@ -1,4 +1,4 @@
-package designpatterns.hard.three_singleton;
+package designpatterns.hard.four_singleton;
 
 import java.util.HashMap;
 import java.util.Map;

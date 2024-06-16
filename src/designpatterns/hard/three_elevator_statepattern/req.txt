@@ -1,0 +1,23 @@
+Design a single elevator for a residential building
+
+Req:
+-On every floor there should be a button which gives an indication to the elevator to stop at that
+floor
+-Inside there elevator there should be buttons like G, 1,2 etc to denote floors
+-Open and close gate buttons from inside
+-Do not allow all sorts of operations all the time
+eg: when elevator is moving, opening gate is not allowed
+elevator is at a floor with door opened then we cannot go to another floor until the door is closed
+
+There are 2 categories of requests:
+Upward
+Downward
+
+suppose elevtor is moving up and it receives some more request for floors above it and some for
+ below it then it should first serve all the requests from the floors above only then it should start
+ moving down and serve downward requests.
+
+The movement is unidirectional. Elevator should serve all the requests in a particular direction before
+changing its direction to serve other requests.
+
+In the future is strategy may change.
