@@ -1,0 +1,16 @@
+There is a single database with multiple tables.
+
+Table: Composed of multiple rows and columns
+Columns: Only contains strings
+we need to store integers, floats etc in form of strings
+
+It should be allowed to add/ delete rows from table
+
+I should be able to create and delete tables
+
+It should be possible to add/remove columns from a table
+
+Tables should also have constraints: PK, FK
+
+We want to allow selecting and updating of rows from certain table based on certain criterias
+EG: Filter person whose age > 30 and blood group is B+ve
