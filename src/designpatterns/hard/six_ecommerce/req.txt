@@ -1,0 +1,20 @@
+We need to create a design of website like amazon
+
+User should be able to search for a product
+He should be able to put some filters
+
+Diff categories of customers
+We want to allow all guest users to perform search operations
+Only logged in customer can purchase
+Only merchants/sellers can upload new products or delete their own products and update inventory of products
+(there should be separate APIs for adding a single product and adding bulk products)
+There can be variety of admins who can have set of permissions
+
+User should be able to proceed for payment after checking out cart using multiple form of payments
+User should be able to track his order and check the details of his order
+An order can be in different stages and we cannot cancel an order at every stage
+
+We want the system to support notifications
+Whenevr order status is updated then send the notifications to user
+
+We also want to support ratings and feedbacks
